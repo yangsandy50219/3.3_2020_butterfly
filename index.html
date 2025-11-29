@@ -15,8 +15,8 @@
     .wrapper {
       width: 100%;
       height: 100%;
-      min-height: 650px;
-      /* 比之前略小，剛剛好 */
+      min-height: 550px;
+      /* ⭐ 調小高度 */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -24,11 +24,11 @@
 
     #chartContainer {
       width: 85%;
-      /* ⭐ 原本 100%，改成 85% → 變窄 */
+      /* 保持圖比較集中 */
       max-width: 1000px;
-      /* ⭐ 原本 1300px → 改到 1000px */
-      min-height: 650px;
-      /* ⭐ 跟 wrapper 同高 */
+      /* 避免太寬 */
+      min-height: 600px;
+      /* ⭐ 圖表高度調小 */
       height: auto;
       position: relative;
     }
